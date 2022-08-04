@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import Weather from "./Weather";
+
 import "./App.css";
 
 function App() {
@@ -20,6 +22,7 @@ function App() {
         />
         <input type="submit" />
       </form>
+      <Weather city={city} />
     </div>
   );
 }
