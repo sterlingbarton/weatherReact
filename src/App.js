@@ -24,7 +24,7 @@ function App() {
       </form>
       <Weather city={city} />
       <p>
-        This page was made by Sterling Barton and is{" "}
+        This webpage was coded by Sterling Barton and is{" "}
         <a href="https://github.com/sterlingbarton/weatherReact">
           open-sourced
         </a>
