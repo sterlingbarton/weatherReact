@@ -23,6 +23,12 @@ function App() {
         <input type="submit" />
       </form>
       <Weather city={city} />
+      <p>
+        This page was made by Sterling Barton and is{" "}
+        <a href="https://github.com/sterlingbarton/weatherReact">
+          open-sourced
+        </a>
+      </p>
     </div>
   );
 }
