@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <div className="container">
         <Search />
-        <Weather />
+        <Weather city="Paris" />
         <Footer />
       </div>
     </div>
