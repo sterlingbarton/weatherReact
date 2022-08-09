@@ -1,12 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 
-export default function Search() {
-  let [city, setCity] = useState("");
-
-  function handleSubmit(e) {
-    e.preventDefault();
-  }
-
+export default function Search({ handleSubmit, city, setCity }) {
   return (
     <div className="row">
       <form onSubmit={handleSubmit}>
