@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useState, useEffect } from "react";
 import { BallTriangle } from "react-loader-spinner";
+import "./weather.css";
 
 export default function Weather(props) {
   const [isFahrenheight, setIsFahrenheight] = useState(true);
@@ -79,11 +80,6 @@ export default function Weather(props) {
     return (
       <div className="Weather row">
         <img
-          style={{
-            height: 200,
-            width: "auto",
-            margin: "0 auto",
-          }}
           alt="icon"
           src={`http://openweathermap.org/img/wn/${weatherData.icon}@2x.png`}
         />

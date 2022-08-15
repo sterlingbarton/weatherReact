@@ -1,8 +1,9 @@
 import React from "react";
+import "./footer.css";
 
 export default function Footer() {
   return (
-    <p>
+    <p className="footer">
       This webpage was coded by Sterling Barton and is{" "}
       <a
         href="https://github.com/sterlingbarton/weatherReact"
